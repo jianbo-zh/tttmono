@@ -6,6 +6,4 @@
   <remote name="gr_fbe" fetch="ssh://git@git.grandrace.cn/fbe" unless="remote.gr_fbe"/>
   <!-- 公网共享代码库 -->
   <remote name="gr_gitee" fetch="ssh://git@gitee.com" unless="remote.gr_gitee"/>
-
-  <remote name="github_zh" fetch="ssh://git@github.com/jianbo-zh" unless="remote.github_zh"/>
 </manifest>

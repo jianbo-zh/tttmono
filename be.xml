@@ -5,7 +5,7 @@
 
     <include name="sub_remote_def.xml" />
 
-    <project path="besvc" name="goworkspace" remote="github_zh" groups="fbe,all" />
+    <project path="besvc" name="jy-workspace-besvc" remote="gr_fbe" groups="fbe,all" />
 
     <!-- 公共代码仓库 -->
     <project path="besvc/jydata" name="jydata" remote="gr_fbe" groups="fbe,carui,all" />
