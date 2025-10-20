@@ -16,7 +16,6 @@
     <project path="micros/gw_carproxy7" name="jy-gw-carproxy7" remote="gr_fbe" groups="fbe,all" />
     <project path="micros/gw_carproxy10" name="jy-gw-carproxy10" remote="gr_fbe" groups="fbe,all" />
     <project path="micros/gw_carproxy10quic" name="jy-gw-carproxy10quic" remote="gr_fbe" groups="fbe,all" />
-    <project path="micros/gw_carproxy10quic" name="jy-gw-carproxy10quic" remote="gr_fbe" groups="fbe,all" />
     <project path="micros/mock_car" name="jy-mockcar" remote="gr_fbe" groups="fbe,all" />
     <project path="micros/ms_carauth" name="jy-ms-carauth" remote="gr_fbe" groups="fbe,all" />
     <project path="micros/ms_carcontrol" name="jy-ms-carcontrol" remote="gr_fbe" groups="fbe,all" />
