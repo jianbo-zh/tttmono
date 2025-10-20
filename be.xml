@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-    <default revision="v3.0.0" sync-j="4"/>
+    <default revision="main" sync-j="4"/>
 
     <include name="sub_remote_def.xml" />
+
+    <project path="" name="goworkspace" remote="github_zh" groups="fbe,all" />
 
     <!-- 公共代码仓库 -->
     <project path="jydata" name="jydata" remote="gr_fbe" groups="fbe,carui,all" />
