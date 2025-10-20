@@ -1,0 +1,10 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- 检查是否已定义过remote -->
+  <remote name="iproto" fetch="ssh://git@git.grandrace.cn/iproto" unless="remote.iproto"/>
+  <remote name="gr_core" fetch="ssh://git@git.grandrace.cn/platform_team" unless="remote.gr_core"/>
+  <remote name="gr_fbe" fetch="ssh://git@git.grandrace.cn/fbe" unless="remote.gr_fbe"/>
+  <!-- 公网共享代码库 -->
+  <remote name="gr_gitee" fetch="ssh://git@gitee.com" unless="remote.gr_gitee"/>
+</manifest>
