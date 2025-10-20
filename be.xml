@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <default revision="v3.0.0" sync-j="4"/>
+
+    <include name="sub_remote_def.xml" />
+
+    <!-- 公共代码仓库 -->
+    <project path="jydata" name="jydata" remote="gr_fbe" groups="fbe,carui,all" />
+    <project path="jylib" name="jylib" remote="gr_fbe" groups="fbe,carui,all" />
+    <project path="jypb" name="jypb" remote="gr_fbe" groups="fbe,carui,all" />
+
+    <!-- 微服务仓库 -->
+    <project path="micros/app_user" name="jy-app-user" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/bp_crontask" name="jy-bp-crontask" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/gw_carproxy7" name="jy-gw-carproxy7" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/gw_carproxy10" name="jy-gw-carproxy10" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/gw_carproxy10quic" name="jy-gw-carproxy10quic" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/gw_carproxy10quic" name="jy-gw-carproxy10quic" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/mock_car" name="jy-mockcar" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/ms_carauth" name="jy-ms-carauth" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/ms_carcontrol" name="jy-ms-carcontrol" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/ms_cardispatch" name="jy-ms-cardispatch" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/ms_carflight" name="jy-ms-carflight" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/ms_carmeasure" name="jy-ms-carmeasure" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/ms_carota" name="jy-ms-carota" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/ms_filestorage" name="jy-ms-filestorage" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/ms_message" name="jy-ms-message" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/ms_order" name="jy-ms-order" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/ms_parkmap" name="jy-ms-parkmap" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/web_admin" name="jy-web-admin" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/wxmp_ops" name="jy-wxmp-ops" remote="gr_fbe" groups="fbe,all" />
+    <project path="micros/wxmp_user" name="jy-wxmp-user" remote="gr_fbe" groups="fbe,all" />
+</manifest>
+
